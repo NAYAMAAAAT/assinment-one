@@ -168,3 +168,96 @@
     font-size: 16px;
     font-weight: 400;
 }
+.my-inspiration {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.my-inspiration h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 37px;
+}
+.my-inspiration p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    line-height: 26px;
+}
+.video-content {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 28px;
+}
+#youtube-video {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin: 5px 0px;
+}
+.my-goals {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+    text-align: center;
+    align-items: center;
+}
+.my-goals h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.my-goals p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+.goal-content {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+}
+.goal-card {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    text-align: left;
+}
+.html-card {
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-card {
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-card {
+    background: rgba(255, 223, 0, 0.05);
+}
+.goal-card img {
+    width: 56px;
+    height: 56px;
+}
+.goal-card h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
