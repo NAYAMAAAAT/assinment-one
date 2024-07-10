@@ -189,14 +189,7 @@
     margin-bottom: 48px;
     line-height: 26px;
 }
-.video-content {
-    width: 1140px;
-    height: 614px;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-    padding: 28px;
-}
+
 #youtube-video {
     width: 1076px;
     height: 550px;
@@ -261,6 +254,63 @@
     font-size: 16px;
     font-weight: 700;
 }
+.feedback-input {
+    margin-top: 40px;
+    width: 684px;
+    height: 58px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .feedback-input-text {
+    padding-left: 20px;
+    width: 548px;
+    height: 100%;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .feedback-submit-btn {
+    width: 120px;
+    height: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+  }
+.feedback-support {
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 77px;
+    background-image: url(./assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+  }
+  
+  .feedback-title {
+    padding: 65px 0 0 0;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .feedback-description {
+    width: 685px;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
 .footer-container{
     width: 1440px;
     height: 100px;
